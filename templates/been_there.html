@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ user.email }}'s Been There Page{% endblock %}
+
+{% block body %}
+<h1>Been Here</h1>
+
+<h2>Navigation</h2>
+{% if current_user.is_authenticated %}
+<a href="/">Home</a>
+<a href="/destinations">See all destinations</a>
+<a href="/been_there/{{ current_user.user_id }}">Been There Destinations</a>
+<a href="/bucket_list/{{ current_user.user_id }}">Bucket List</a>
+{% endif %}
+<ul>
+{% for rating in user.ratings %}
+    <li>
+        <h2>{{ rating.destination.city, rating.destination.country }}:</h2>
+        <img src="{{ rating.destination.image_path }}" width="200" height="200">
+        <span class="rating_num_{{ rating.rating_id }}" >
+            <p>
+            <h3>Rating: {{ rating.score }}</h3>
+            </p>
+        </span>
+        {% if session["user_email"] == user.email %}
+        <form action="/destinations/{{ rating.destination_id }}/ratings_update" method="POST">
+        <p>
+        <button name="edit-destination-rating" type="submit" class="edit-destination-rating" id="{{ rating.rating_id }}"> Edit rating </button>
+        </p>
+        </form>
+        {% endif %}
+        
+    </li>
+{% endfor %}
+</ul>
+<script src="/static/js/updateRatings.js"></script>
+
+{% endblock %}

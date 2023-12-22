@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="/path/to/flash.min.js"></script>
+    <link rel="stylesheet" href="/static/site.css"/>
+    <title>
+      {% block title %}{% endblock %}
+    </title>
+
+    {% block head %}{% endblock %}
+  </head>
+  <body>
+    <div class="bgimage"></div>
+    {% for msg in get_flashed_messages() %}
+      <p class="flash-msg">
+        {{ msg }}
+      </p>
+    {% endfor %}
+
+    {% block body %}{% endblock %}
+
+    {% block after_body %}{% endblock %}
+  </body>
+</html>

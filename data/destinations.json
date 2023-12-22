@@ -1,0 +1,252 @@
+[
+    {
+        "city": "Bali",
+        "country": "Indonesia",
+        "image_path": "https://static.toiimg.com/thumb/msid-92879435,width-748,height-499,resizemode=4,imgsize-234324/.jpg"
+    },
+    {
+        "city": "New Orleans",
+        "country": "USA",
+        "image_path": "https://static.independent.co.uk/2023/07/28/16/newFile.jpg"
+    },
+    {
+        "city": "Kerry",
+        "country": "Ireland",
+        "image_path": "https://www.explore.com/img/gallery/plan-a-trip-to-ireland-and-visit-one-of-the-most-scenic-vacation-spots-in-the-world/intro-1694471017.jpg"
+    },
+    {
+        "city": "Marrakesh",
+        "country": "Morocco",
+        "image_path": "https://www.tripsavvy.com/thmb/VgGPybxMRu83Lcw3WB2ktj0USaA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1147478209-893cd8912819414ba115c0003d5c857b.jpg"
+    },
+    {
+        "city": "Sydney",
+        "country": "Australia",
+        "image_path": "https://media.tatler.com/photos/6141d37b9ce9874a3e40107d/16:9/w_1280,c_limit/social_crop_sydney_opera_house_gettyimages-869714270.jpg"
+    },
+    {
+        "city": "Male",
+        "country": "Maldives",
+        "image_path": "https://img.onmanorama.com/content/dam/mm/en/travel/outside-kerala/images/2021/11/23/maldives1.jpg.transform/576x300/image.jpg"
+    },
+    {
+        "city": "Paris",
+        "country": "France",
+        "image_path": "https://africa.visa.com/dam/VCOM/regional/cemea/generic-cemea/travel-with-visa/destinations/paris/marquee-travel-paris-800x450.jpg"
+    },
+    {
+        "city": "Cape Town",
+        "country": "South Africa",
+        "image_path": "https://afar.brightspotcdn.com/dims4/default/f0999a8/2147483647/strip/false/crop/1440x764+0+0/resize/1440x764!/quality/90/?url=https%3A%2F%2Fafar-media-production-web.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fa0%2Ff5%2Faedfb9554320b0f41a4d72505094%2Fsouthafrica-marcreation-unsplash.jpg"
+    },
+    {
+        "city": "Dubai",
+        "country": "United Arab Emirates",
+        "image_path": "https://media.cnn.com/api/v1/images/stellar/prod/200924183413-dubai-9-1.jpg?q=w_1110,c_fill"
+    },
+    {
+        "city": "Bora Bora",
+        "country": "French Polynesia",
+        "image_path": "https://www.fivestaralliance.com/files/fivestaralliance.com/field/image/nodes/2009/11956/11956_0_fourseasonsresortborabora_fsa-g.jpg"
+    },
+    {
+        "city": "New York",
+        "country": "USA",
+        "image_path": "https://cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg"
+    },
+    {
+        "city": "Dubrovnik",
+        "country": "Croatia",
+        "image_path": "https://lp-cms-production.imgix.net/2021-06/shutterstockRF_662032261.jpg"
+    },
+    {
+        "city": "Ediburgh",
+        "country": "Scotland",
+        "image_path": "https://www.telegraph.co.uk/content/dam/Travel/2021/GettyImages-1207467401.jpg?imwidth=680"
+    },
+    {
+        "city": "Rome",
+        "country": "Italy",
+        "image_path": "https://www.fodors.com/wp-content/uploads/2018/10/HERO_UltimateRome_Hero_shutterstock789412159.jpg"
+    },
+    {
+        "city": "Paro Valley",
+        "country": "Bhutan",
+        "image_path": "https://cdn.audleytravel.com/1050/751/79/15978913-taktsang-monastery.webp"
+    },
+    {
+        "city": "Jaipur",
+        "country": "India",
+        "image_path": "https://www.micato.com/wp-content/uploads/2018/09/jaipur-1110x700.jpg"
+    },
+    {
+        "city": "London",
+        "country": "England",
+        "image_path": "https://tripswithtykes.com/wp-content/uploads/2022/10/London-England-Big-Ben-View.jpg"
+    },
+    {
+        "city": "Cancun",
+        "country": "Mexico",
+        "image_path": "https://lp-cms-production.imgix.net/2023-10/shutterstock1063645616.jpg"
+    },
+    {
+        "city": "Santorini",
+        "country": "Greece",
+        "image_path": "https://lp-cms-production.imgix.net/2021-05/shutterstockRF_1563449509.jpg?auto=format&w=1440&h=810&fit=crop&q=75"
+    },
+    {
+        "city": "Dominican Republic",
+        "country": "Caribbean",
+        "image_path": "https://cdn.kimkim.com/files/a/images/8f3568675d7e8ca0b2768133d33e33357c8cef79/big-3c6b3ef47777021b99174fed1ed01f08.jpg"
+    },
+    {
+        "city": "Istanbul",
+        "country": "Turkey",
+        "image_path": "https://a.cdn-hotels.com/gdcs/production6/d781/3bae040b-2afb-4b11-9542-859eeb8ebaf1.jpg"
+    },
+    {
+        "city": "Playa del Carmen",
+        "country": "Mexico",
+        "image_path": "https://thecancunsun.com/wp-content/uploads/2021/12/Top-10-cenotes-in-Playa-del-Carmen-you-Cant-Miss.jpg"
+    },
+    {
+        "city": "Barcelona",
+        "country": "Spain",
+        "image_path": "https://travel.usnews.com/dims4/USNEWS/0230cdf/2147483647/resize/600x400%5E%3E/crop/600x400/quality/85/?url=https%3A%2F%2Ftravel.usnews.com%2Fimages%2FParc_Guell_Gatsi_Getty.jpg"
+    },
+    {
+        "city": "Santorini",
+        "country": "Greece",
+        "image_path": "https://lp-cms-production.imgix.net/2021-05/shutterstockRF_1563449509.jpg?auto=format&w=1440&h=810&fit=crop&q=75"
+    },
+    {
+        "city": "Madrid",
+        "country": "Spain",
+        "image_path": "https://content.r9cdn.net/rimg/dimg/5f/38/353ec907-ap-MAD-551b0685.jpg?width=1366&height=768&xhint=826&yhint=409&crop=true"
+    },
+    {
+        "city": "Phuket",
+        "country": "Thailand",
+        "image_path": "https://www.letsphuket.com/wp-content/uploads/phuket1.jpg"
+    },
+    {
+        "city": "Hanoi",
+        "country": "Vietnam",
+        "image_path": "https://images.halfhalftravel.com/vietnam/hanoi/favorite-places/DAN07484.jpg?width=600&height=335&aspect_ratio=600:335"
+    },
+    {
+        "city": "Cairo",
+        "country": "Egypt",
+        "image_path": "https://d3rr2gvhjw0wwy.cloudfront.net/uploads/mandators/49581/file-manager/cairo.jpg"
+    },
+    {
+        "city": "Florence",
+        "country": "Italy",
+        "image_path": "https://media.timeout.com/images/105879414/750/422/image.jpg"
+    },
+    {
+        "city": "Lisbon",
+        "country": "Portugal",
+        "image_path": "https://media.cnn.com/api/v1/images/stellar/prod/221010084313-01-lisbon-quest-cool.jpg?c=16x9&q=w_800,c_fill"
+    },
+    {
+        "city": "Bankgkok",
+        "country": "Thailand",
+        "image_path": "https://a.cdn-hotels.com/gdcs/production172/d459/3af9262b-3d8b-40c6-b61d-e37ae1aa90aa.jpg"
+    },
+    {
+        "city": "Rio De Janeiro",
+        "country": "Brazil",
+        "image_path": "https://a.cdn-hotels.com/gdcs/production143/d357/42fb6908-dcd5-4edb-9f8c-76208494af80.jpg"
+    },
+    {
+        "city": "Havana",
+        "country": "Cuba",
+        "image_path": "https://d.newsweek.com/en/full/1333310/havana-underground.jpg"
+    },
+    {
+        "city": "Waikato",
+        "country": "New Zealand",
+        "image_path": "https://www.newzealand.com/assets/Uploads/Hobbiton-Matamata-Waikato-Sara-Orme__aWxvdmVrZWxseQo_FocalPointCropWzQzMCw2MzAsNTAsNTAsNzUsImpwZyIsNjUsMi41XQ.jpg"
+    },
+    {
+        "city": "Banff",
+        "country": "Canada",
+        "image_path": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Moraine_Lake_17092005.jpg/640px-Moraine_Lake_17092005.jpg"
+    },
+    {
+        "city": "Tokyo",
+        "country": "Japan",
+        "image_path": "https://a.cdn-hotels.com/gdcs/production178/d1389/225ed955-70b1-41ed-91d5-7916616f5d2a.jpg"
+    },
+    {
+        "city": "Los Angeles",
+        "country": "USA",
+        "image_path": "https://www.introducinglosangeles.com/f/estados-unidos/los-angeles/guia/los-angeles-m.jpg"
+    },
+    {
+        "city": "Moscow",
+        "country": "Russia",
+        "image_path": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Red_square_Moscow_cityscape_%288309148721%29.jpg/1200px-Red_square_Moscow_cityscape_%288309148721%29.jpg"
+    },
+    {
+        "city": "Seoul",
+        "country": "Korea",
+        "image_path": "https://www.riotgames.com/darkroom/1440/229f99519728c14c1f7b9165e7bfcb0e:081a026bdcfe50393d264c34be8c09d9/adobestock-164710679.jpeg"
+    },
+    {
+        "city": "Singapore",
+        "country": "Malaysia",
+        "image_path": "https://i.natgeofe.com/n/d3eb75f2-1cfb-4934-8def-8ff7a39985b8/1-urban-innovator-singapore-AP_17028110123351_3x2.jpg"
+    },
+    {
+        "city": "Petra",
+        "country": "Jordan",
+        "image_path": "https://cdn.britannica.com/24/153524-050-BA9D084B/Al-Dayr-Petra-Jordan.jpg"
+    },
+    {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "image_path": "https://www.clinkhostels.com/wp-content/themes/yootheme/cache/7f/amsterdam-cheap-time-7fb598bf.jpeg"
+    },
+    {
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "image_path": "https://files.guidedanmark.org/files/382/164757_Nyhavn_Jacob-Schjrring-og-Simon-Lau.jpg"
+    },
+    {
+        "city": "Reykjavík",
+        "country": "Iceland",
+        "image_path": "https://static.independent.co.uk/2023/05/04/10/iStock-1058181722.jpg"
+    },
+    {
+        "city": "Machu Picchu",
+        "country": "Peru",
+        "image_path": "https://media.cntraveler.com/photos/5818a486b6f3d25e7b5c6a3e/16:9/w_2560%2Cc_limit/GettyImages-573103543.jpg"
+    },
+    {
+        "city": "Hawaii",
+        "country": "USA",
+        "image_path": "https://static.euronews.com/articles/stories/05/98/40/48/1440x810_cmsv2_890e6458-118e-5d59-af39-b30623f8f7d6-5984048.jpg"
+    },
+    {
+        "city": "San Jose",
+        "country": "Costa Rica",
+        "image_path": "https://www.travelandleisure.com/thmb/gaDpA2MnXLa7eGUhNWRUyRt8vu4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-tenorio-TODOCOSTARICA1023-2000ee1ba936431a89f93ddc928fe741.jpg"
+    },
+    {
+        "city": "Hong Kong",
+        "country": "China",
+        "image_path": "https://media.timeout.com/images/105910231/750/422/image.jpg"
+    },
+    {
+        "city": "Coron",
+        "country": "Philippines",
+        "image_path": "https://a.cdn-hotels.com/gdcs/production9/d386/f2b062c9-178e-44fe-943a-9507986049b8.jpgg"
+    },
+    {
+        "city": "Budapest",
+        "country": "Hungary",
+        "image_path": "https://i.natgeofe.com/n/7e9d29f5-16ef-4224-abd1-39fce220a029/ST_whatsnew_budapest_C98P0J_ukHR.jpg"
+    }
+]

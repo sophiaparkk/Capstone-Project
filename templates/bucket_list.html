@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ user.email }}'s Bucket List of Destinations{% endblock %}
+
+{% block body %}
+<h1>My Bucket List</h1>
+
+<h2>Navigation</h2>
+{% if current_user.is_authenticated %}
+<a href="/">Home</a>
+<a href="/destinations">See all destinations</a>
+<a href="/been_there/{{ current_user.user_id }}">Been There Destinations</a>
+<a href="/bucket_list/{{ current_user.user_id }}">Bucket List</a>
+{% endif %}
+
+
+<ul>
+{% for bucket in user.bucket %}
+    <li>
+        <h2>{{ bucket.destination.city + ', ' + bucket.destination.country }}:</h2>
+        <img src="{{ bucket.destination.image_path }}" width="200" height="200">
+        <span class="rating_num_{{ bucket.bucket_id }}" >
+
+        </span>
+        {% if session["user_email"] == user.email %}
+        <form action="/destinations/{{ bucket.bucket_id }}/bucket_remove"method="POST">
+        <p>
+        <button name="remove" type="submit" class="edit-destination-bucket-list" id="{{ bucket.bucket_id }}"> Remove from bucket list </button>
+        </p>
+        </form>
+        {% endif %}
+    </li>
+{% endfor %}
+</ul>
+
+{% endblock %}

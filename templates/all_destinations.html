@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+<link rel="stylesheet" href="/static/all_destinations.css"/>
+
+{% block title %}Destinations Library{% endblock %}
+
+{% block body %}
+<h1>Destinations Library</h1>
+
+<h2>Navigation</h2>
+{% if current_user.is_authenticated %}
+<a href="/">Home</a>
+<a href="/destinations">See all destinations</a>
+<a href="/been_there/{{ current_user.user_id }}">Been There Destinations</a>
+<a href="/bucket_list/{{ current_user.user_id }}">Bucket List</a>
+{% endif %}
+
+<ul>
+  {% for destination in destinations %}
+
+        <h2> {{ destination.city + ', ' + destination.country }} </h2>
+        <img src="{{ destination.image_path }}" width="500" height="500">
+      </a>
+
+    {% if session.get('user_email') %}
+    <form action="/destinations/{{ destination.destination_id }}/ratings" method="POST">
+      <p>
+        Rating:
+        <select name="rating">
+          <option value="">Select rating</option>
+          {% for num in range(6) %}
+            <option value="{{ num }}">{{ num }}</option>
+          {% endfor %}
+        </select>
+      </p>
+      <p><input type="submit"></p>
+    </form>
+
+    <form action="/destinations/{{ destination.destination_id }}/bucket" method="POST">
+        <input type="submit" id="bucket" name="bucket" value="Add to bucket list">
+      </p>
+    </form>
+
+    
+    {% endif %}
+  {% endfor %}
+</ul>
+{% endblock body %}

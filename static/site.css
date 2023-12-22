@@ -1,0 +1,41 @@
+body {
+    color: beige;
+    display: flexbox;
+    text-align: center;
+    font-family: 'Didot', serif	;
+    background-image: url("https://media.cntraveler.com/photos/60e612ae0a709e97d73d9c60/1:1/w_3840,h_3840,c_limit/Beach%20Vacation%20Packing%20List-2021_GettyImages-1030311160.jpg");
+}
+
+input[type=text] {
+    padding: 6px 20px;
+    margin: 12px 0;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+input[type=password] {
+    padding: 6px 20px;
+    margin: 12px 0;
+    box-sizing: border-box;
+
+}
+
+a:link {
+    color: rgb(230, 230, 230);
+    background-color: transparent;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 191, 0);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
